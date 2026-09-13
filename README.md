@@ -4,7 +4,7 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: Sep 13, 2026, 07:45 UTC
+Last source update: Sep 13, 2026, 08:19 UTC
 
 ### Fleet
 
@@ -22,8 +22,8 @@ Last source update: Sep 13, 2026, 07:45 UTC
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Planning review | Sep 13, 2026, 07:45 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/34745961979) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Apply idle | Sep 13, 2026, 07:43 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/34745869281) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply in progress | Sep 13, 2026, 08:19 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/34746385123) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Apply idle | Sep 13, 2026, 07:56 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/34746417881) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Planning review | Sep 13, 2026, 05:44 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/34740998445) |
 
 ### Repositories
@@ -91,18 +91,18 @@ Current indexes and this dashboard section are replaceable projections, never mu
 
 ## Repair Dashboard
 
-Last source update: Sep 13, 2026, 07:35 UTC
+Last source update: Sep 13, 2026, 07:59 UTC
 
 State: Failed clusters need inspection
 
 | Metric | Count | Rate |
 | --- | ---: | ---: |
 | Latest clusters reviewed | 1014 | 100% |
-| Run attempts archived | 3105 | audit |
-| Latest successful clusters | 852 | 84.0% |
-| Latest failed clusters | 160 | 15.8% |
+| Run attempts archived | 3106 | audit |
+| Latest successful clusters | 853 | 84.1% |
+| Latest failed clusters | 159 | 15.7% |
 | Latest cancelled clusters | 2 | 0.2% |
-| Needs-human clusters | 122 | 12.0% |
+| Needs-human clusters | 123 | 12.1% |
 | Fix actions failed | 34 | 4.6% |
 | Fix actions blocked | 154 | 21.0% |
 | Completed close actions | 0 | 0.0% |
@@ -116,7 +116,7 @@ State: Failed clusters need inspection
 
 - Snapshot only: lane states reflect the latest durable run records, not live GitHub state; verify linked items before action.
 - Latest records: 1014 clusters: 324 maintainer action, 235 automation snapshot, 415 intervention needed, 40 no pending action, 0 completed.
-- Maintainer first: [openclaw/openclaw](https://github.com/openclaw/openclaw) [#142173](https://github.com/openclaw/openclaw/issues/142173) is maintainer_input: Quarantine this exact PR for central OpenClaw security handling without public mutation or a vulnerability verdict. The independent nativ....
+- Maintainer first: [openclaw/openclaw](https://github.com/openclaw/openclaw) [#146821](https://github.com/openclaw/openclaw/pull/146821) is maintainer_input: #146821: Resolve implementation ownership with @zyz619963502zyz. Prefer the claimed contributor repair; hydrate any resulting PR before d....
 - Intervention first: [openclaw/openclaw](https://github.com/openclaw/openclaw) [issue-openclaw-openclaw-146023](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146023.md) is automation_blocked: fix artifact is too broad for autonomous execution; split into narrower jobs or explicitly set CLAWSWEEPER_ALLOW_BROAD_FIX_ARTIFACTS=1.
 - Automation latest: [openclaw/openclaw](https://github.com/openclaw/openclaw) [#146800](https://github.com/openclaw/openclaw/pull/146800) is action_planned: The job defines a bounded bug fix that preserves both reconnect grace and historical hung-run recovery. No additional product decision is....
 - Completed latest: no completed action in the latest records.
@@ -147,7 +147,7 @@ State: Failed clusters need inspection
 
 | Repository | Item | Lane state | Recorded need | Updated | Cluster | Run |
 | --- | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#142173](https://github.com/openclaw/openclaw/issues/142173) | maintainer_input | Quarantine this exact PR for central OpenClaw security handling without public mutation or a vulnerability verdict. The independent native timeout... | Sep 13, 2026, 07:27 UTC | [issue-openclaw-openclaw-146821](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146821.md) | [34744648008](https://github.com/openclaw/clawsweeper/actions/runs/34744648008) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#146821](https://github.com/openclaw/openclaw/pull/146821) | maintainer_input | #146821: Resolve implementation ownership with @zyz619963502zyz. Prefer the claimed contributor repair; hydrate any resulting PR before deciding wh... | Sep 13, 2026, 07:59 UTC | [issue-openclaw-openclaw-146821](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146821.md) | [34746360069](https://github.com/openclaw/clawsweeper/actions/runs/34746360069) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#111578](https://github.com/openclaw/openclaw/issues/111578) | maintainer_input | Route this item to central OpenClaw security handling without public mutation. Its credential-boundary decision is outside the independent #146612... | Sep 13, 2026, 02:06 UTC | [issue-openclaw-openclaw-146612](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146612.md) | [34732008345](https://github.com/openclaw/clawsweeper/actions/runs/34732008345) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#45269](https://github.com/openclaw/openclaw/issues/45269) | maintainer_input | Quarantine this historical item for central security handling without public mutation or reopening. Its provider-related discussion is unnecessary... | Sep 12, 2026, 21:38 UTC | [issue-openclaw-openclaw-146392](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146392.md) | [34720080242](https://github.com/openclaw/clawsweeper/actions/runs/34720080242) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#128812](https://github.com/openclaw/openclaw/issues/128812) | maintainer_input | Quarantine this item for central OpenClaw security handling without public mutation. The independent projection-write repair does not depend on it. | Sep 12, 2026, 03:45 UTC | [issue-openclaw-openclaw-145371](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-145371.md) | [34670753971](https://github.com/openclaw/clawsweeper/actions/runs/34670753971) |
@@ -233,6 +233,7 @@ State: Failed clusters need inspection
 
 | Cluster | State | Reason | Report | Run |
 | --- | --- | --- | --- | --- |
+| issue-openclaw-openclaw-146821 | needs human | #146821: Resolve implementation ownership with @zyz619963502zyz. Prefer the claimed contributor repair; hydrate any resulting PR before deciding wh... | [issue-openclaw-openclaw-146821](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146821.md) | [34746360069](https://github.com/openclaw/clawsweeper/actions/runs/34746360069) |
 | issue-openclaw-openclaw-146023 | execute_fix blocked | fix artifact is too broad for autonomous execution; split into narrower jobs or explicitly set CLAWSWEEPER_ALLOW_BROAD_FIX_ARTIFACTS=1 | [issue-openclaw-openclaw-146023](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-146023.md) | [34699518709](https://github.com/openclaw/clawsweeper/actions/runs/34699518709) |
 | automerge-openclaw-openclaw-142626 | fix failed | validation command failed (pnpm check:changed): $ node scripts/check-changed.mjs [check:changed] lanes=extensions, extensionTests [check:changed] e... | [automerge-openclaw-openclaw-142626](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-142626.md) | [34618103886](https://github.com/openclaw/clawsweeper/actions/runs/34618103886) |
 | automerge-openclaw-openclaw-117144 | fix failed | validation command failed (pnpm check:changed): $ node scripts/check-changed.mjs [check:changed] lanes=testRoot, tooling [check:changed] .github/wo... | [automerge-openclaw-openclaw-117144](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-117144.md) | [34586894740](https://github.com/openclaw/clawsweeper/actions/runs/34586894740) |
@@ -262,7 +263,6 @@ State: Failed clusters need inspection
 | issue-openclaw-openclaw-138251 | needs human | Provide a writable worker with sibling ../codex available for direct inspection (or permit its clone). Then implement and validate the prepared nar... | [issue-openclaw-openclaw-138251](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-138251.md) | [33878784259](https://github.com/openclaw/clawsweeper/actions/runs/33878784259) |
 | issue-openclaw-openclaw-138139 | needs human | Provide an environment with the sibling ../codex checkout (or authority to create it) so the required direct source inspection can occur.; Provide... | [issue-openclaw-openclaw-138139](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-138139.md) | [33862220415](https://github.com/openclaw/clawsweeper/actions/runs/33862220415) |
 | issue-openclaw-openclaw-138102 | needs human | Provision the exact sibling ../codex checkout (or a worker environment that can do so) before implementation. This is a repository hard gate, not a... | [issue-openclaw-openclaw-138102](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/issue-openclaw-openclaw-138102.md) | [33860696610](https://github.com/openclaw/clawsweeper/actions/runs/33860696610) |
-| automerge-openclaw-openclaw-126056 | fix failed | Codex fix worker failed: stream disconnected before completion: stream closed before response.completed | [automerge-openclaw-openclaw-126056](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-126056.md) | [33847384799](https://github.com/openclaw/clawsweeper/actions/runs/33847384799) |
 
 ### Fix Failure Queue
 
